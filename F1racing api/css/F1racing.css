@@ -1,0 +1,32 @@
+.container {
+    margin-top: 50px;
+    background-image:url('https://i.stack.imgur.com/jGlzr.png');
+    
+}
+
+.form{
+    display: flex;
+    justify-content: left;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer3{
+    text-align: center
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer1{
+    margin-top: 100px;
+}
