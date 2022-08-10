@@ -83,12 +83,12 @@ function shoppingCart(action, object, cart=[]){
         }
     cookies = {
             name: "12 cookies",
-            price: 2,
+            price: 5,
             desc: "scrumcious"
         }
     kraft_mac_and_cheese = {
             name: "Mac and cheese, made by Kraft",
-            price: 1,
+            price: 5,
             desc: "Cheesy"
         }
     
@@ -195,9 +195,9 @@ class Customer{
 let Giovanni = new Customer("Giovanni")
 Giovanni.enterStore()
 let eggs2 = Giovanni.makeItem('eggs',5,"dozen eggs")
-let lettuce2 = Giovanni.makeItem('lettuce',2,"i wonder if you have any ")
-let tomato2 = Giovanni.makeItem('tomato',3,"gross i hate tomatoes")
-let bacon2 = Giovanni.makeItem('bacon',10,"it is still on the piggy")
+let lettuce2 = Giovanni.makeItem('lettuce',2,"Crispy Head of Lettuce")
+let tomato2 = Giovanni.makeItem('tomato',3,"juicy")
+let bacon2 = Giovanni.makeItem('bacon',10,"sizzling")
 Giovanni.shoppingCart('add',eggs2)
 Giovanni.shoppingCart('add',lettuce2)
 Giovanni.shoppingCart('add',tomato2)
